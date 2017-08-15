@@ -1,0 +1,27 @@
+{
+  "name": "js-learning-boilerplate",
+  "version": "1.0.0",
+  "description": "Learning Environment for Javascript",
+  "scripts": {
+    "start": "npm run server & npm run watch:eslint",
+    "server": "browser-sync start --server dist --files 'dist/**/*' --no-open",
+    "watch:eslint": "nodemon -w dist -e js -x npm run eslint --silent",
+    "eslint": "eslint dist/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inotom/js-learning-boilerplate.git"
+  },
+  "author": "iNo <wdf7322@yahoo.co.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inotom/js-learning-boilerplate/issues"
+  },
+  "homepage": "https://github.com/inotom/js-learning-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "eslint": "4.4.1",
+    "nodemon": "1.11.0"
+  }
+}

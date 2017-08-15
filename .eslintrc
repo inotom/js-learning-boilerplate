@@ -1,0 +1,35 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "script",
+    "ecmaVersion": 5,
+    "ecmaFeatures": {
+    }
+  },
+  "rules": {
+    "strict": [2, "function"],
+    "semi": 2,
+    "eqeqeq": 2,
+    "space-before-blocks": [2, "always"],
+    "space-before-function-paren": [2, "never"],
+    "space-infix-ops": 2,
+    "keyword-spacing": 2,
+    "indent": [2, 2],
+    "linebreak-style": [2, "unix"],
+    "eol-last": [2, "always"],
+    "camelcase": [2, {
+      "properties": "always"
+    }],
+    "quotes": [2, "single"],
+    "no-trailing-spaces": 2,
+    "no-multiple-empty-lines": 2,
+    "no-nested-ternary": 2,
+    "no-console": 0
+  },
+  "globals": {
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
+  }
+}
