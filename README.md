@@ -29,7 +29,9 @@ $ npm start
 ## Tools
 
 [EditorConfig](http://editorconfig.org/)
+
 [ESLint](http://eslint.org/)
+
 [Tern](http://ternjs.net/)
 
 ## License
